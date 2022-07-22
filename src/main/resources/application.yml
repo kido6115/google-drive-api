@@ -1,0 +1,12 @@
+spring:
+  freemarker:
+    # 模板字尾名
+    suffix: .ftl
+    # 文件型別
+    content-type: text/html
+    # 頁面編碼
+    charset: UTF-8
+    # 頁面快取
+    cache: false
+    # 模板路徑
+    template-loader-path: classpath:/templates/
